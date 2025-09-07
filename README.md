@@ -26,7 +26,7 @@ np.save('X.normalized.npy', X_normalized) #Saves the output as a NumPy array for
 ```
 
 <b>div_by_3.npy (Divisible by 3 Problem)</b><br>
-A Python script where it creates a 10 x 10 array on which the elements are all the squared values of the first positive 100 integers. With this array, it then creates a different array where it finds the elements that are divisible by 3. 
+A Python script where it creates a 10 x 10 array on which the elements are all the squared values of the first positive 100 integers. With this array, it then creates a different array where it finds the elements that are divisible by 3 on the original 10 x 10 array. 
 
 The newly created array where it displays all the elements divisible by 3 would be saved as <u>'div_by_3.npy'</u>
 
