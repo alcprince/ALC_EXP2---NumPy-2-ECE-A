@@ -2,7 +2,7 @@
 
 <i>About the files:</i><br>
 <u>X_normalized.npy</u> - A NumPy array file that loads the <i>Normalization Problem</i><br>
-<u>div_by_3.npy</u> - A NumPy array file that loads the <i>Normalization Problem</i><br>
+<u>div_by_3.npy</u> - A NumPy array file that loads the <i>Divisible by 3 Problem</i><br>
 <u>PA2 - Number Python</u> - Python file where the array files would be loaded.
 <br>
 <br>
