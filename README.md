@@ -7,7 +7,7 @@
 <br>
 <br>
 <b>X_normalized.npy (Normalization Problem)</b><br>
-A Python script that 'normalizes' a given array. It creates a random 5 x 5 array where it then is labeled as 'X' (the elements in the array changes everytime it is ran). Furthermore, it calculates the standard deviation and mean of the elements in array 'X'. Lastly, the elements in Array 'X' is then subracted by its mean element-wise where their difference is then divided by the calculated standard deviation of all the elements in array 'X'.
+A Python script that 'normalizes' a given array. It creates a random 5 x 5 array where it then is labeled as 'X' (the elements in the array changes everytime it is ran). Furthermore, it calculates the standard deviation and mean of the elements in array 'X'. Lastly, the elements in array 'X' is then subracted by its mean element-wise where their difference is then divided by the calculated standard deviation of all the elements in array 'X'.
 
 The array that would be the quotient would be saved as <u>'X_normalized.npy'</u>
 
