@@ -1,12 +1,13 @@
 # 2ECE - A: PA-2 - Number Python (NumPy) Test
 
-<i>About the files</i>
-<u>X_normalized.npy</u> - A NumPy array file that loads the <i>Normalization Problem</i>
-<u>div_by_3.npy</u> - A NumPy array file that loads the <i>Normalization Problem</i>
+<i>About the files:</i><br>
+<u>X_normalized.npy</u> - A NumPy array file that loads the <i>Normalization Problem</i><br>
+<u>div_by_3.npy</u> - A NumPy array file that loads the <i>Normalization Problem</i><br>
 <u>PA2 - Number Python</u> - Python file where the array files would be loaded.
-
-<b>X_normalized.npy (Normalization Problem)</b>
-Objectives of the script: A Python script that 'normalizes' a given array. It creates a random 5 x 5 array where it then is labeled as 'X' (the elements in the array changes everytime it is ran). Furthermore, it calculates the standard deviation and mean of the elements in array 'X'. Lastly, the elements in Array 'X' is then subracted by its mean element-wise where their difference is then divided by the calculated standard deviation of all the elements in array 'X'.
+<br>
+<br>
+<b>X_normalized.npy (Normalization Problem)</b><br>
+A Python script that 'normalizes' a given array. It creates a random 5 x 5 array where it then is labeled as 'X' (the elements in the array changes everytime it is ran). Furthermore, it calculates the standard deviation and mean of the elements in array 'X'. Lastly, the elements in Array 'X' is then subracted by its mean element-wise where their difference is then divided by the calculated standard deviation of all the elements in array 'X'.
 
 The array that would be the quotient would be saved as <u>'X_normalized.npy'</u>
 
@@ -24,10 +25,10 @@ X_normalized = Y/SD #The variable 'Z' gets the quotient of the variable 'Y' and 
 np.save('X.normalized.npy', X_normalized) #Saves the output as a NumPy array for loading.
 ```
 
-<b>div_by_3.npy (Divisible by 3 Problem)</b>
-Objectives of the script: A Python script where it creates a 10 x 10 array on which the elements are all the squared values of the first positive 100 integers. With this array, it then creates a different array where it finds the elements that are divisible by 3. 
+<b>div_by_3.npy (Divisible by 3 Problem)</b><br>
+A Python script where it creates a 10 x 10 array on which the elements are all the squared values of the first positive 100 integers. With this array, it then creates a different array where it finds the elements that are divisible by 3. 
 
-The newly created array where it displays all the elements divisible by 3 would be saved as <u>'dib_by_3.npy'</u>
+The newly created array where it displays all the elements divisible by 3 would be saved as <u>'div_by_3.npy'</u>
 
 ```python
 import numpy as np #Imports the NumPy Library.
@@ -41,8 +42,8 @@ div_by_3 = b[b%3 == 0] #Checks the array 'B' element-wise if the element is divi
 np.save("div_by_3.npy", div_by_3) #Saves the output as a NumPy array for loading.
 ```
 
-<b>PA2 - Number Python</b>
-Objectives of the script: A Python script where it loads the NumPy array files mentioned and saved above. 
+<b>PA2 - Number Python</b><br>
+A Python script where it loads the NumPy array files mentioned and saved above. 
 
 ```python
 import numpy as np #Imports the NumPy Library.
